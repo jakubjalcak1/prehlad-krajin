@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Prehľad krajín</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Prehľad krajín</h1>
+
+  <div class="ovladanie">
+    <input id="hladaj" type="text" placeholder="Hľadaj podľa názvu...">
+    <button class="kontinent" data-kontinent="vsetky">Všetky</button>
+    <button class="kontinent" data-kontinent="Európa">Európa</button>
+    <button class="kontinent" data-kontinent="Ázia">Ázia</button>
+    <button class="kontinent" data-kontinent="Amerika">Amerika</button>
+  </div>
+
+  <div id="zoznam"></div>
+  <p id="suhrn"></p>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
